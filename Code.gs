@@ -15,7 +15,7 @@ function sendEmails() {
   Logger.log(data);
   for (i in data) {
     var row = data[i];
-    var body = HtmlService.createTemplateFromFile("Salary_email_template");
+    var body = HtmlService.createTemplateFromFile("Email_template"); // an html template to send in email
     var todayDate = new Date();
     var d = todayDate;
     d.setDate(0);
