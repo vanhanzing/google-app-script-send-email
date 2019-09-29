@@ -1,12 +1,4 @@
 /**
-*include another file like css,javascipt
-*/
-function include(filename){
-   return  HtmlService.createHtmlOutputFromFile(filename).getContent();
-}
-
-
-/**
  * Sends emails with data from the current spreadsheet.
  */
 function sendEmails() {
@@ -49,9 +41,10 @@ function sendEmails() {
   }
 }
 
-// include another file like css,javascipt
+/**
+*include another file like css,javascipt
+*/
 function include(filename){
-  return HtmlService.createHtmlOutputFromFile(filename).getContent();
-    
-};
+   return  HtmlService.createHtmlOutputFromFile(filename).getContent();
+}
  
