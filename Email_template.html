@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <?!= include("Email_template_css"); ?>
+  </head>
+
+  <body class="body">
+    <h1 class="header">
+      Email Tempalte
+    </h1>
+    <div class="user-detail">
+      <p class="float-left">Name: <b>FirstName LastName</b></p>
+      <p class="float-right">
+        Date:
+        <b>
+          <?= lastDate ?></b
+        >
+      </p>
+    </div>
+    <hr class="hr" />
+    <div class="row">
+      <p>
+        Message:
+        <?= message ?>
+      </p>
+      <p></p>
+    </div>
+  </body>
+</html>
