@@ -37,7 +37,7 @@ function sendEmails() {
   catch(error){
     Logger.log(error)
   }
-    return body.evaluate();
+    
   }
 }
 
